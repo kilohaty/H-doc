@@ -6,15 +6,17 @@
 
 - 参数
     - {Object} options
-    
-    | 名称         | 类型         | 默认值       | 描述        |
-    |-------------|-------------|-------------|-------------|
-    | domSelector | `String` |     | 指定需要初始化的容器（匹配指定选择器的第一个元素） |
-    | width | `Number` | 300 | 舞台宽度 |
-    | height | `Number` | 150 | 舞台高度 |
-    | openEventListener | `Boolean` | false | 是否开启事件监听 |
+    - 属性列表
+        
+        | 名称         | 类型         | 默认值       | 描述        |
+        |-------------|-------------|-------------|-------------|
+        | domSelector | `String` |     | 指定需要初始化的容器（匹配指定选择器的第一个元素） |
+        | width | `Number` | 300 | 舞台宽度 |
+        | height | `Number` | 150 | 舞台高度 |
+        | openEventListener | `Boolean` | false | 是否开启事件监听 |
 
 - 示例
+
     ```html
       <div id="my-canvas"></div>
     ```
@@ -35,6 +37,7 @@
 舞台事件总线
 
 - 示例
+
     ```js
       const eventTypes = H.Utils.EventTypes;
       stage.bus
@@ -61,6 +64,7 @@
     | element | `Object` | `null`    | 需要添加至舞台的元素（H.Shapes.Element实例） |
     
 - 示例
+
     ```js
       const element1 = new H.Shapes.Element();
       const element2 = new H.Shapes.Element();
@@ -78,6 +82,7 @@
     | elementId | `String` | `''`    | 元素的id |
     
 - 示例
+
     ```js
       stage.remove('1');
     ```
@@ -93,6 +98,7 @@
     | elementId | `String` | `''`    | 元素的id |
 
 - 示例
+
     ```js
       const element = stage.getElementById('8');
     ```
