@@ -13,3 +13,6 @@ var a = 1;
     border: 1px solid green;
   }
 ```
+
+## test link
+[test]('./test')
