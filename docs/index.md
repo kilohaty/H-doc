@@ -15,4 +15,4 @@ var a = 1;
 ```
 
 ## test link
-[test]('./test')
+[test](test)
