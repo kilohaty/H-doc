@@ -31,7 +31,7 @@
 
 ## 方法
 #### **set(options)**
-添加元素到舞台
+设置元素属性
 
 - 参数
     - {Object} options

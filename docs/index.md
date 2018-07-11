@@ -2,7 +2,7 @@
 [HRender](https://github.com/kilohaty/HRender) 是一个二维绘图引擎
 
 
-## **引入 HRender**
+## 引入 HRender
 - npm 方式
 
   ```
@@ -12,10 +12,10 @@
 - script 方式
 
   ```html
-    <script src="../dist/H.js"></script>
+    <script src="yourStaticPath/H.js"></script>
   ```
   
-## **文档列表**
+## 文档列表
  - [舞台 Stage](stage/index)
  - 形状 Shape
    - [元素 Element](shapes/element)
