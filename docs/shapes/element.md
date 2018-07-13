@@ -15,6 +15,8 @@
         | flipX | `flipY` | false | 水平翻转 |
         | flipY | `flipY` | false | 垂直翻转 |
         | visible | `Boolean` | true | 是否可见 |
+<br>
+
 - 示例
 
     ```js

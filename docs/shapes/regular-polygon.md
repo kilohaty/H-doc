@@ -13,6 +13,8 @@
         | edgeNumber | `Number` | 3 | 边数量 |
         | radius | `Number` | 0 | 外切圆半径 |
         | startAngle | `Number` | 0 | 起始角度 |
+<br>
+
 - 示例
 
     ```js
