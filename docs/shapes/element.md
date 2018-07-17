@@ -12,9 +12,9 @@
         |-------------|-------------|-------------|-------------|
         | left | `Number` | 0 | 水平方向距离 |
         | top | `Number` | 0 | 垂直方向距离 |
+        | angle | `Number` | 0 | 旋转角度 |
         | flipX | `Boolean` | false | 水平翻转 |
         | flipY | `Boolean` | false | 垂直翻转 |
-        | angle | `Number` | 0 | 旋转角度 |
         | visible | `Boolean` | true | 是否可见 |
 <br>
 
@@ -24,6 +24,7 @@
       const element = new H.Shapes.Element({
         left: 100,
         top: 50,
+        angle: 30,
         flipX: true,
         flipY: false,
         visible: true,

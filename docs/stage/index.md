@@ -10,7 +10,7 @@
         
         | 名称         | 类型         | 默认值       | 描述        |
         |-------------|-------------|-------------|-------------|
-        | domSelector | `String` | | 指定需要初始化的容器（匹配指定选择器的第一个元素） |
+        | el | `String` / `HTMLElement` | | 指定需要初始化的容器 |
         | width | `Number` | 300 | 舞台宽度 |
         | height | `Number` | 150 | 舞台高度 |
         | openEventListener | `Boolean` | false | 是否开启事件监听 |
