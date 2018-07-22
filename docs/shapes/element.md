@@ -16,6 +16,7 @@
         | flipX | `Boolean` | false | 水平翻转 |
         | flipY | `Boolean` | false | 垂直翻转 |
         | visible | `Boolean` | true | 是否可见 |
+        
 <br>
 
 - 示例

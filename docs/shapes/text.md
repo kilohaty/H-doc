@@ -15,6 +15,7 @@
         | textAlign | `String` | left | 文本对齐方式 |
         | textBaseLine | `String` | top | 文本基线 |
         | fillStyle | `String` | #000 | 文本样式 |
+        
 <br>
 
 - 示例

@@ -14,6 +14,7 @@
         | lineWidth | `Number` | 1 | 描边线宽 |
         | strokeStyle | `String` | '#000000' | 描边样式 |
         | fillStyle | `String` | 'transparent' | 填充样式 |
+        
 <br>
 
 - 示例
