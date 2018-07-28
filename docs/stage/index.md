@@ -22,7 +22,7 @@
     ```
     ```js
       const stage = new H.Stage({
-        domSelector: '#my-canvas',
+        el: '#my-canvas',
         width: 1800,
         height: 700,
         openEventListener: true,
