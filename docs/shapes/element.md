@@ -13,6 +13,8 @@
         | left | `Number` | 0 | 水平方向距离 |
         | top | `Number` | 0 | 垂直方向距离 |
         | angle | `Number` | 0 | 旋转角度 |
+        | scaleX | `Number` | 1 | 水平缩放 |
+        | scaleY | `Number` | 1 | 垂直缩放 |
         | flipX | `Boolean` | false | 水平翻转 |
         | flipY | `Boolean` | false | 垂直翻转 |
         | visible | `Boolean` | true | 是否可见 |
@@ -26,6 +28,8 @@
         left: 100,
         top: 50,
         angle: 30,
+        scaleX: 2,
+        scaleY: 3,
         flipX: true,
         flipY: false,
         visible: true,
